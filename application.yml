@@ -3,13 +3,11 @@
         active:
         - dev
 ---
-#开发环境
 spring:
     profiles: dev   
     application:
         name:microservicecloud-config-lzz-dev
 ---
- #测试环境
 spring:
     profiles:test   
     application:
